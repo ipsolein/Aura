@@ -1,0 +1,10 @@
+[project]
+name = "aura-site"
+version = "0.1.0"
+description = "AURA Motors static website served with FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["fastapi[standard]>=0.115.0"]
+
+[tool.fastapi]
+entrypoint = "main:app"
